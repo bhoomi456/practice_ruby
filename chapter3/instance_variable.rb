@@ -3,7 +3,6 @@ class Student
         # instance variables store object state
         @name ="Bhoomi" #used when each object needs its own personal data
         @course = "MCA"
-
     end 
 
     def show_data
