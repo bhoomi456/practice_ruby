@@ -46,11 +46,11 @@ class PermiumCustomer < Customer
     end
 end
 
-p = PermiumCustomer.new("Aman", "aman@gmail.com, 20")
+p = PermiumCustomer.new("Aman", "aman@gmail.com", 20)
 
 p.login
 p.customer_info
 
 p.add_to_stack("Shoes")
 p.add_to_stack("Watch")
-p.take_from_stack
+puts p.take_from_stack
