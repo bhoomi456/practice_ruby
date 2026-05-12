@@ -10,5 +10,5 @@ class C
 end
 
 c = C.new
-c.x
+C.x
 puts "That was a call to x by: #{c}"

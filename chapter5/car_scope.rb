@@ -9,6 +9,21 @@ class Car
   @@total_count = 0
 
   attr_reader :make
+
+  def initialize(make)
+
+    # check if given make exists in allowed makes
+    if @@makes.include?(make)
+      puts "creating a new #{make}"
+
+      @make = make
+      @@cars[make] += 1
+      @@total_count += 1
+
+    else
+      raise "no such make : #{make}"
+    end
+  end
   
   # Class methods
   # Returns total number of cars created
@@ -25,21 +40,6 @@ class Car
 
       # Create initial count = 0 for this make
       @@cars[make] = 0
-    end
-  end
-
-  def initialize(make)
-
-    # check if given make exists in allowed makes
-    if @@makes.include?(make)
-      puts "creating a new #{make}"
-
-      @make = make
-      @@cars[make] += 1
-      @@total_count += 1
-
-    else
-      raise "no such make : #{make}"
     end
   end
 
