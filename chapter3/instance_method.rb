@@ -1,7 +1,7 @@
 class Student
-    def study
-        puts "student is studying"
-    end
+  def study
+    puts "student is studying"
+  end
 end
 
 s = Student.new

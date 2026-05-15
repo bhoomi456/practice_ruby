@@ -1,14 +1,14 @@
 class Person
-    attr_accessor :name
+  attr_accessor :name
 
-    def set_name
-        # self is required for setter methods
-        self.name = "Ruby"
-    end
+  def set_name
+    # self is required for setter methods
+    self.name = "Ruby"
+  end
 
-    def show
-        puts name
-    end
+  def show
+    puts name
+  end
 end
 
 p = Person.new

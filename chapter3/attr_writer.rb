@@ -1,5 +1,5 @@
 class User
-    attr_writer :password
+  attr_writer :password
 
 end
 

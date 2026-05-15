@@ -1,13 +1,13 @@
 class Payment
-    def process
-        puts "Processing payment"
+  def process
+    puts "Processing payment"
 
-    end
+  end
 end
 class UPIpayment < Payment
-    def process
-        puts "Processing UPI Payment"
-    end
+  def process
+    puts "Processing UPI Payment"
+  end
 end
 payment = Payment.new
 payment.process

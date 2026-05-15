@@ -1,12 +1,12 @@
 class User
-    def initialize(email)
-        #initialize runs automatically when .new is called
-        @email = email
+  def initialize(email)
+    #initialize runs automatically when .new is called
+    @email = email
         
-    end
-    def show_email
-        puts @email
-    end
+  end
+  def show_email
+    puts @email
+  end
 
 end
 

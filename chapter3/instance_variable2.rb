@@ -1,11 +1,11 @@
 class Employee
-    def set_name(name)
-        #each object gets seperate instance variable value
-        @name = name
-    end
-    def show_name
-        puts @name
-    end
+  def set_name(name)
+    #each object gets seperate instance variable value
+    @name = name
+  end
+  def show_name
+    puts @name
+  end
 end
 #show each object has seperate state
 e1 = Employee.new 

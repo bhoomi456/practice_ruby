@@ -1,5 +1,5 @@
 class Student
-    attr_accessor :name, :course #read + write both
+  attr_accessor :name, :course #read + write both
 end
 
 s = Student.new

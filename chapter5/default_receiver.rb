@@ -1,13 +1,13 @@
 class Employee
     
-    def name
-        "Bhoomi"
-    end
+  def name
+    "Bhoomi"
+  end
 
-    def show 
-        # no receiver written here
-        puts name
-    end
+  def show 
+    # no receiver written here
+    puts name
+  end
 end
 
 e = Employee.new
