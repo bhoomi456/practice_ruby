@@ -4,7 +4,7 @@ module Rentable
   end
 end
 
-class Car
+class Vehicle
   include Rentable
   attr_reader :brand, :rent_per_day
   def initialize(brand, rent_per_day)
@@ -13,20 +13,10 @@ class Car
   end
 end
 
-class Bike
-  include Rentable
-  def initialize(brand, rent_per_day)
-    @brand = brand
-    @rent_per_day = rent_per_day
-  end
+class Car < Vehicle
+end
 
-  def brand
-    @brand
-  end
-
-  def rent_per_day
-    @rent_per_day
-  end
+class Bike < Vehicle
 end
 
 car1 = Car.new("bmw", 1000)
