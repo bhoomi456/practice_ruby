@@ -27,7 +27,7 @@ class Library
   end
 
   def list_books
-    if @books.empty?
+    if @books.empty?N
       puts " No books Available"
     else
       puts "Library Books :"
