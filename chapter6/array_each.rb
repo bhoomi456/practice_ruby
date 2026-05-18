@@ -1,5 +1,4 @@
-
-array = [1,2,3,4,5]
+# reopening the Array class
 class Array
   def my_each
     c = 0

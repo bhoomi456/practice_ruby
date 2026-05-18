@@ -3,12 +3,12 @@
 class Array
   def my_map
     c = 0
-    acc = []  #initializes accumulator array
+    acc = []  #initializes empty array
     until c == size
-      acc << yield(self[c]) #Captures return value from block in accumulator array
+      acc << yield(self[c]) # Captures return value from block in accumulator array
       c += 1
     end
-    acc #Returns accumulator array
+    acc 
   end
 end
 
