@@ -30,5 +30,4 @@ class TestRentable < Minitest::Test
   def test_total_bike_rent
     assert_equal 2500, @bike1.rent(5)
   end
-
 end

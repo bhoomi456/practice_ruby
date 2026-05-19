@@ -1,5 +1,5 @@
 class Door 
-  def initializes
+  def initialize
     @locked = true
   end
 
