@@ -8,16 +8,4 @@ class Admin < Employee
     puts "Manage all departments"
     puts "View all reports"
   end
-
-  def create
-    puts "#{name} created a new user"
-  end
-
-  def delete 
-    puts "#{name} deleted a user"
-  end
-
-  def manage_departments
-    puts "#{name} manages all departments"
-  end
 end 

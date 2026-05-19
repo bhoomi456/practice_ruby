@@ -1,4 +1,19 @@
+# Problem Statement: Role-Based Access Control (RBAC) System
+
+# A company wants to build an internal employee management system where employees have different access permissions based on their roles.
+
+# The system should support the following roles:
+
+# Admin
+# Manager
+# Developer
+# HR
+
+# Each role should have different permissions and responsibilities inside the system.
+
+
 require_relative "module_permission"
+
 
 class Employee
   include Permissions
